@@ -59,7 +59,7 @@ const RequestCredits = ({account, accountType, contract, url}) => {
     return (
         <>
             {
-                canRequest && balance >= 4.75 ?
+                canRequest && balance >= (4.75 / 10000) ?
                     <>
                         <Alert show={show} variant="success" onClose={() => setShow(false)} dismissible>
                             <Alert.Heading style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>Woohoo! <CelebrationRoundedIcon /></Alert.Heading>
