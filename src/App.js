@@ -21,7 +21,7 @@ function App() {
   const [account, setAccount] = useState(null);
   const [accountType, setAccountType] = useState(-1);
   const [toasts, setToasts] = useState([])
-  const url = "https://damp-beach-24679.herokuapp.com/";
+  const url = "https://damp-beach-24679.herokuapp.com";
 
   const clearAccount = () => {
     console.log("Here we are!")
